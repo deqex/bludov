@@ -6,16 +6,15 @@ import Home from "./pages/Home";
 
 export default function AppRoutes() {
 
-    return(
+    return (
         <>
-
-        <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<Home></Home>}/>
-        </Routes>
-        </BrowserRouter>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Home></Home>} />
+                </Routes>
+            </BrowserRouter>
         </>
 
     )
-    
+
 }
