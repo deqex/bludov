@@ -1,19 +1,19 @@
 import './Navbar.css';
 
+
 export default function Navbar() {
   return (
     <>
-      <div className="entirenavbar">
+    
+      <div className="navbar-container">
 
-        <div className="imgbox">
-          <img src="" alt="" />
+        <img className='navbar-img' src="https://www.bludov.cz/images/logo.png" alt="" />
+
+        <div className="navbar-namebox">
+          <p className='navbar-name'>Bludov</p>
         </div>
 
-        <div className="websitename">
-          <p>Bludov</p>
-        </div>
-
-        <div className="pages">
+        <div className="navbar-pages">
           <p>Button</p>
         </div>
 

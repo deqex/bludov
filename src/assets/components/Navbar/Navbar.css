@@ -1,40 +1,44 @@
 body{
     margin: 0;
 }
+@font-face {
+    font-family: 'Inter';
+    src: url('../../fonts/Inter-Bold.ttf') format('truetype');
+    font-weight: 900; 
+    font-style: normal;
+}
 
-.entirenavbar{
+.navbar-container{
 background: #FFFFFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 display: flex;
 flex-direction: row;
+height: 5rem;
 }
 
-.imgbox{
-
-background: url('https://www.bludov.cz/images/logo.png');
-background-size: contain;
-display: flex;
-}
-
-.websitename{
-    /* Bludov */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 24px;
-/* identical to box height, or 50% */
-display: flex;
-align-items: center;
-letter-spacing: 0.1em;
-
-color: #000000;
-
-text-shadow: 0px 4px 7.7px rgba(0, 0, 0, 0.25);
+.navbar-img{
+    margin-left: 0.5rem;
 
 }
 
-.pages{
+.navbar-namebox{
+    align-items: center;
+    display: flex;
+
+}
+.navbar-name{
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-shadow: 0px 4px 7.7px rgba(0, 0, 0, 0.25);
+    padding-left: 0.5rem;
+
+}
+
+.navbar-pages{
 
 }

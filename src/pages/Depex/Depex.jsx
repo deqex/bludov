@@ -7,7 +7,7 @@ export default function Depex() {
   return (
     <div>
       
-      <Thumbnail></Thumbnail>
+      <Navbar></Navbar>
     </div>
   )
 }
