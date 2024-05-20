@@ -1,0 +1,86 @@
+
+.body{
+    background-color: F5F5F5;
+}
+.obal1{
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+gap: 48px;
+
+
+background: #F7F7F7;
+border: 1px solid #F7F7F7;
+box-shadow: -4px 8px 20px rgba(0, 0, 0, 0.1);
+border-radius: 12px; 
+}
+
+.obal2{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+
+
+
+
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+
+.subheading{
+
+
+margin: 0%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+/* identical to box height, or 36px */
+
+color: #000000;
+
+}
+
+.text{
+   /* Body text for whatever you’d like to claim. Add main takeaway points, quotes, anecdotes, or even a very very short story. */
+
+
+
+/* Body text
+
+Text for body copy
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+display: flex;
+align-items: center;
+
+color: #828282;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0; 
+}
+
+
+
+
+

@@ -1,0 +1,13 @@
+.body{
+    background-color: F5F5F5;
+}
+
+.textareacontainer{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.innercontainer{
+    padding: 2rem;
+}
