@@ -1,0 +1,23 @@
+.body{
+    background-color: F5F5F5;
+}
+
+.textareacontainer{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.innercontainer{
+    padding: 2rem;
+}
+.AkceThumbnailContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+.innerthumbcont{
+    padding: 2rem;
+}
