@@ -1,0 +1,12 @@
+.underline span {
+  display: inline-block;
+}
+
+.underline span::after
+{
+  content: '';
+  height: 7px;
+  background: red;
+  border-radius: 5px;
+  display: block
+}
