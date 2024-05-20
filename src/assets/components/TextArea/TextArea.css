@@ -1,8 +1,6 @@
 
-.body{
-    background-color: F5F5F5;
-}
-.obal1{
+
+.TextArea-obal1{
 
 display: flex;
 flex-direction: column;
@@ -17,7 +15,7 @@ box-shadow: -4px 8px 20px rgba(0, 0, 0, 0.1);
 border-radius: 12px; 
 }
 
-.obal2{
+.TextArea-obal2{
 
 display: flex;
 flex-direction: column;
@@ -38,7 +36,7 @@ flex-grow: 0;
 
 
 
-.subheading{
+.TextArea-subheading{
 
 
 margin: 0%;
@@ -52,7 +50,7 @@ color: #000000;
 
 }
 
-.text{
+.TextArea-text{
    /* Body text for whatever you’d like to claim. Add main takeaway points, quotes, anecdotes, or even a very very short story. */
 
 

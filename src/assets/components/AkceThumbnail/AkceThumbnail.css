@@ -1,0 +1,167 @@
+.AkceThumbnail-obal1{
+   display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 406px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0; 
+border: 1px solid #F7F7F7;
+box-shadow: -4px 8px 20px rgba(83, 83, 83, 0.1);
+border-radius: 12px; 
+
+}
+
+.AkceThumbnail-obrazek{
+    /* Image */
+
+width: 406px;
+height: 244px;
+
+background: url(/src/assets/images/01.jpg), #F7F7F7;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+}
+.AkceThumbnail-textObal{
+    /* Copy */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+width: 100%;
+padding-bottom: 1rem;
+padding-left: 1rem;
+padding-right: 1rem;
+
+
+}
+.AkceThumbnail-nazev{
+    /* Název */
+
+margin: 0;
+
+/* Body text
+
+Text for body copy
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.AkceThumbnail-popis{
+    /* popis */
+
+
+    margin: 0;
+/* Body text
+
+Text for body copy
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+display: flex;
+align-items: center;
+
+color: #828282;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.AkceThumbnail-datum{
+    /* 24.4.2024 */
+
+
+    margin: 0;
+/* Body text
+
+Text for body copy
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.AkceThumbnail-leva{
+    width: 70%;
+}
+.AkceThumbnail-prava{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.AkceThumbnail-dalsiinfo{
+
+    /* > Další info */
+
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+
+/* or 42px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+}
+.colorred{
+    color: red;
+    font-size: 120%;
+    
+
+}

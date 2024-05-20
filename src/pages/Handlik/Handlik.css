@@ -5,9 +5,19 @@
 .textareacontainer{
     display: flex;
     flex-direction: row;
-    padding: 1rem;
+    
 }
 
 .innercontainer{
+    padding: 2rem;
+}
+.AkceThumbnailContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+.innerthumbcont{
     padding: 2rem;
 }
