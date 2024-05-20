@@ -131,7 +131,7 @@ flex-grow: 0;
 
 }
 .AkceThumbnail-leva{
-    width: 70%;
+    width: 65%;
 }
 .AkceThumbnail-prava{
     display: flex;
@@ -162,6 +162,6 @@ color: #000000;
 .colorred{
     color: red;
     font-size: 120%;
-    
+    padding-right: 0.5rem;
 
 }

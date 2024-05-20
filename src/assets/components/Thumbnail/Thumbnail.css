@@ -1,23 +1,55 @@
-.thumbnail-container{
+.Thumbnail-container{
     display: flex;
     flex-direction: column;
-    border: 1px solid blue;
-    width: 50%;
-}
-.thumbnail-imgbox{
-    background: url('https://www.bludov.cz/admin/photos/ModuleTurist/14/kostelecek3-624a7e5c7a1ee.jpg');
-    border-radius: 8px; 
-    height: 120px;
-    width: auto;
+    gap: 1rem;
+    width: 406px;
+    border: 1px solid #F7F7F7;
+    box-shadow: -4px 8px 20px rgba(83, 83, 83, 0.1);
+    border-radius: 12px; 
+ 
+ }
+ 
+ .Thumbnail-imgbox{
+    width: 406px;
+    height: 244px;
+    background-image: url('https://www.bludov.cz/admin/photos/ModuleTurist/14/kostelecek3-624a7e5c7a1ee.jpg');
     background-size: cover;
-}
-.thumbnail-container2{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+ }
+ .Thumbnail-container2{
     display: flex;
     flex-direction: row;
-}
-.thumbnail-name{
-    
-}
-.thumbnail-button{
+    width: 100%;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+ 
+ 
+ }
+ .Thumbnail-title{
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;  
+    color: #000000; 
 
-}
+ }
+ .Thumbnail-titlebox{
+     width: 65%;
+ }
+ .Thumbnail-buttonbox{
+    width: 35%;
+ }
+ .Thumbnail-button{
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     display: flex;
+     color: #000000;
+     margin: 0;
+ }
