@@ -8,6 +8,7 @@ export default function Depex() {
     <div>
       
       <Navbar></Navbar>
+      <Thumbnail></Thumbnail>
     </div>
   )
 }

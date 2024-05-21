@@ -1,5 +1,7 @@
 .underline span {
   display: inline-block;
+  font-family: 'Inter-Bold';
+
 }
 
 .underline span::after
