@@ -2,6 +2,7 @@ import Navbar from '../assets/components/Navbar/Navbar';
 import Heading from '../assets/components/Heading/Heading';
 import TextArea from '../assets/components/TextArea/TextArea';
 import AkceThumbnail from '../assets/components/AkceThumbnail/AkceThumbnail';
+import Footer from '../assets/components/Footer/Footer';
 
 
 
@@ -34,6 +35,7 @@ export default function Home() {
                     <AkceThumbnail></AkceThumbnail>
                 </div>
             </div>
+            <Footer></Footer>
 
 
         </>

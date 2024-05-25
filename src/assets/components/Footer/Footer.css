@@ -1,0 +1,256 @@
+.footerobal1{
+    /* Navigation / Footer */
+display: flex;
+flex-direction: row;
+position: relative;
+bottom: 0%;
+width: 100%;
+height: 300px;
+
+background: #E9E9E9;
+box-shadow: 0px -2px 15.5px rgba(0, 0, 0, 0.25);
+
+}
+.footerAdresaObal{
+    /* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding-top: 20px;
+
+
+
+
+}
+
+.footerheadline1{
+    /* adresa */
+
+
+
+font-family: 'Inter-Bold';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+margin-bottom: 10px;
+/* identical to box height, or 30px */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.footeradresatext{
+    /* adresa lol */
+
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+margin-top: 0;
+margin-bottom: 10px;
+/* identical to box height, or 24px */
+
+color: #454545;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.footerSocialkyObal{
+
+
+
+}
+.footerSocialky{
+
+    /* Social Icons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+}
+.footerSocialkyText{
+    /* Sledujte nás: */
+
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 150%;
+/* identical to box height, or 22px */
+
+color: #828282;
+
+
+}
+.FB{
+/* Buttons / Icon */
+
+width: 40px;
+height: 40px;
+
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.in{
+/* Buttons / Icon */
+
+width: 40px;
+height: 40px;
+
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.YT{
+/* Buttons / Icon */
+
+width: 40px;
+height: 40px;
+
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+.insta{
+/* Buttons / Icon */
+
+width: 40px;
+height: 40px;
+
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+}
+
+.footerkontakt{
+    /* Conversation */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+
+padding: 40px 0px;
+gap: 16px;
+
+
+
+border-radius: 8px;
+
+}
+.footerkontakttext{
+    /* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+.footerkontaktheader{
+    /* Strarosta */
+
+
+
+/* Small text */
+font-family: 'Inter-bold';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+margin: 0%;
+/* identical to box height, or 24px */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.footeremail{
+    /* email@figmasfakedomain.net */
+
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+margin: 0;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+color: #454545;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.footerleva{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    width: 40%;
+    
+    
+}
+.footerprava{
+    display: flex;
+    padding-left: 10%;
+    flex-direction: column;
+    
+    
+}
+

@@ -1,5 +1,6 @@
 import TextArea from '../../assets/components/TextArea/TextArea'
 import AkceThumbnail from '../../assets/components/AkceThumbnail/AkceThumbnail'
+import Footer from '../../assets/components/Footer/Footer'
 import './Handlik.css'
 export default function Handlik() {
   return (
@@ -31,6 +32,8 @@ export default function Handlik() {
           <AkceThumbnail></AkceThumbnail>
         </div>
       </div>
+
+      <Footer></Footer>
     
     </div>
   )
