@@ -1,0 +1,9 @@
+.actualbutton{
+    border: 0px black solid;
+    background-color: #e6e6e6;
+    border-radius: 8px;
+    font-family: 'Inter';
+    padding: 0.5rem;
+    margin: 1rem;
+    cursor: pointer;
+}
