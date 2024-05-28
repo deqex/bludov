@@ -6,7 +6,9 @@ import Footer from '../assets/components/Footer/Footer';
 
 
 
+
 import './Home.css'
+import BIG from '../assets/components/BIG/BIG';
 export default function Home() {
 
 
@@ -14,6 +16,7 @@ export default function Home() {
     return (
         <>
             <Navbar></Navbar>
+            <BIG></BIG>
             <Heading>Aktuality</Heading>
             <div className='textareacontainer'>
                 <div className='innercontainer'>
