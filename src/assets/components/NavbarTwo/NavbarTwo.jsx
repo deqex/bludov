@@ -32,20 +32,20 @@ export default function NavbarTwo() {
 
           <NavDropdown title="O Bludově" id="basic-nav-dropdown" className='navi-link'>
               <NavDropdown.Item href="/OObci">O obci</NavDropdown.Item>
-              <NavDropdown.Item href="#action/1.3">Fotogalerie</NavDropdown.Item>
-              <NavDropdown.Item href="#action/1.2">Historie</NavDropdown.Item>
+              <NavDropdown.Item href="/Fotogalerie">Fotogalerie</NavDropdown.Item>
+              <NavDropdown.Item href="/Historie">Historie</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Služby města" id="basic-nav-dropdown" className='navi-link'>
-              <NavDropdown.Item href="#action/2.1">Mapa města</NavDropdown.Item>
-              <NavDropdown.Item href="#action/2.2">Rekreace</NavDropdown.Item>
-              <NavDropdown.Item href="#action/2.3">Služby</NavDropdown.Item>
+              <NavDropdown.Item href="/Mapa">Mapa města</NavDropdown.Item>
+              <NavDropdown.Item href="/Rekreace">Rekreace</NavDropdown.Item>
+              <NavDropdown.Item href="/Sluzby">Služby</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Turistika" id="basic-nav-dropdown" className='navi-link'>
-              <NavDropdown.Item href="#action/3.1">Turistické cíle</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Restaurace</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Ubytovaní</NavDropdown.Item>
+              <NavDropdown.Item href="/Cile">Turistické cíle</NavDropdown.Item>
+              <NavDropdown.Item href="/Restaurace">Restaurace</NavDropdown.Item>
+              <NavDropdown.Item href="/Ubytovani">Ubytovaní</NavDropdown.Item>
             </NavDropdown>
 
           </Nav>
