@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import './OObci.css'
 import TextAobr from '../../assets/components/TextAobr/TextAobr';
 import Navbar from '../../assets/components/Navbar/Navbar';
+import NavbarTwo from '../../assets/components/NavbarTwo/NavbarTwo';
 
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -54,7 +55,7 @@ export default function CustomizedAccordions() {
 
   return (
     <>
-    <Navbar></Navbar>
+    <NavbarTwo></NavbarTwo>
       <div className='oobci-container'>
 
          <div className='oobci-sidebar'>

@@ -9,13 +9,14 @@ import Footer from '../assets/components/Footer/Footer';
 
 import './Home.css'
 import BIG from '../assets/components/BIG/BIG';
+import NavbarTwo from '../assets/components/NavbarTwo/NavbarTwo';
 export default function Home() {
 
 
 
     return (
         <>
-            <Navbar></Navbar>
+            <NavbarTwo></NavbarTwo>
             <BIG></BIG>
             <Heading>Aktuality</Heading>
             <div className='textareacontainer'>
