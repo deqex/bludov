@@ -7,7 +7,6 @@ import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import './OObci.css'
 import TextAobr from '../../assets/components/TextAobr/TextAobr';
-import Navbar from '../../assets/components/Navbar/Navbar';
 import NavbarTwo from '../../assets/components/NavbarTwo/NavbarTwo';
 
 const Accordion = styled((props) => (

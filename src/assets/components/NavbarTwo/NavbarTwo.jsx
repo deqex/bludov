@@ -24,7 +24,7 @@ export default function NavbarTwo() {
             
           </Navbar.Brand>
 
-          <Navbar.Brand className='navi-name'>Bludov</Navbar.Brand>
+          <Navbar.Brand href="/" className='navi-name'>Bludov</Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
