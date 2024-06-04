@@ -1,6 +1,6 @@
 import './Thumbnail.css'
 
-export default function Thumbnail() {
+export default function Thumbnail(props) {
   return (
     <>
     <div>
@@ -8,7 +8,7 @@ export default function Thumbnail() {
             <div className='Thumbnail-imgbox'></div>
             <div className='Thumbnail-container2'>
                 <div className='Thumbnail-titlebox'>
-                  Nazev
+                  {props.name}
                 </div>
                 <div className='Thumbnail-buttonbox'>
                     <p className='Thumbnail-button'> <span className='colorred'>{'> '}</span> Další info</p>
