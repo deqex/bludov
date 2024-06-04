@@ -17,27 +17,32 @@ export default function Home() {
         <>
             <NavbarTwo></NavbarTwo>
             <BIG></BIG>
-            <Heading>Aktuality</Heading>
-            <div className='textareacontainer'>
-                <div className='innercontainer'>
-                    <TextArea></TextArea>
+
+            <div className='homemain'>
+                <Heading>Aktuality</Heading>
+                <div className='textareacontainer'>
+                    <div className='innercontainer'>
+                        <TextArea></TextArea>
+                    </div>
+                    <div className='innercontainer'>
+                        <TextArea></TextArea>
+                    </div>
                 </div>
-                <div className='innercontainer'>
-                    <TextArea></TextArea>
+                <Heading></Heading>
+
+                <div className='AkceThumbnailContainer'>
+                    <div className='innerthumbcont'>
+                        <AkceThumbnail></AkceThumbnail>
+                    </div>
+                    <div className='innerthumbcont'>
+                        <AkceThumbnail></AkceThumbnail>
+                    </div>
+                    <div className='innerthumbcont'>
+                        <AkceThumbnail></AkceThumbnail>
+                    </div>
                 </div>
             </div>
-            <Heading></Heading>
-            <div className='AkceThumbnailContainer'>
-                <div className='innerthumbcont'>
-                    <AkceThumbnail></AkceThumbnail>
-                </div>
-                <div className='innerthumbcont'>
-                    <AkceThumbnail></AkceThumbnail>
-                </div>
-                <div className='innerthumbcont'>
-                    <AkceThumbnail></AkceThumbnail>
-                </div>
-            </div>
+
             <Footer></Footer>
 
 

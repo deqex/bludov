@@ -13,7 +13,7 @@ width: 406px;
 flex: none;
 order: 0;
 flex-grow: 0; 
-border: 1px solid #F7F7F7;
+
 box-shadow: -4px 8px 20px rgba(83, 83, 83, 0.1);
 border-radius: 12px; 
 
@@ -30,6 +30,7 @@ background-position: center;
 background-size: cover;
 border-top-left-radius: 8px;
 border-top-right-radius: 8px;
+z-index: -1;
 
 /* Inside auto layout */
 flex: none;

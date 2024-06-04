@@ -1,1 +1,12 @@
+.homemain{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.AkceThumbnailContainer{
+   overflow-x:scroll;
+
+   /*box-shadow: inset 0px 0px 60px 6px rgb(227, 227, 227);
+   z-index: 389457468978947 !important;*/
+   
+}
 
