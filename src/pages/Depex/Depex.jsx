@@ -1,17 +1,13 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Place from "../../assets/components/Place/Place"
+import Sidenav from "../../assets/components/Sidenav/Sidenav"
+import Thumbnail from "../../assets/components/Thumbnail/Thumbnail"
 
-  /* The following line can be included in your src/index.js or App.js file */
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../assets/components/Navi/Navi.css'
-
-export default function BasicExample() {
+export default function Depex() {
   return (
     <>
-    
+      <Thumbnail name="lol"></Thumbnail>
+      <Sidenav></Sidenav>
     </>
-  );
+  )
 }
+

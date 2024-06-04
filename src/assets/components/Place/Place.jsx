@@ -2,7 +2,7 @@ import React from 'react'
 import './Place.css';
 import ActualButton from '../ActualButton/ActualButton';
 
-export default function Place() {
+export default function Place(pls) {
   return (
     <>
         <div className='place-container'>
@@ -10,8 +10,12 @@ export default function Place() {
 
             </div>
             <div className='place-text'>
-                <div className='place-title'>Lekarna Bludov</div>
-                <div className='place-description'>Email: info@bludov.cz <br/> Telefon: 777 420 169</div>
+                <div className='place-title'>{pls.name}</div>
+                <div className='place-description'>
+                Email: {pls.email}
+                <br/>
+                Telefon: {pls.telefon}
+                </div>
                 <ActualButton></ActualButton>
             </div>
         </div>

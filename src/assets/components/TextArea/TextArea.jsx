@@ -2,7 +2,7 @@
 import './TextArea.css';
 
 
-export default function TextArea() {
+export default function TextArea(yap) {
     return (
         <div>
             <div className='TextArea-obal1'>

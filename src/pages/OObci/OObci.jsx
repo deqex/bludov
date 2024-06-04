@@ -99,7 +99,11 @@ export default function CustomizedAccordions() {
       </Accordion>
          </div>
 
-         <TextAobr></TextAobr>
+         <TextAobr text="What if drake was called Skibidi Drake and instead of making songs like 'god's plan' he made 'Gyatt's plan' in which he rizzes Kai Cenat's lvl 10 gyatt from ohio while having Baby Gronk as a feature and edging Livvy Dunne throughout the song until he starts jelqing like a sigma after which the beat drops and in the background you can hear turkish quandale dingle sipping the grimace shake at 3 am the ocky way with Nathaniel b
+
+In the recent beef with Kendrick SpeakerMan Llamar, Skibidi Drake has been fanum taxed by Kendrick Speaker, being accused of rizzing up a level <18 Gyatt and potentially even jelqing with her. Skibidi Drake has denied these allegations, stating 'That beta male Kendrick Speakerman will be fanum taxed by me and my skibidi toilet army if he keeps edging me with these outrageous accusations! This is a load of ohio grimace shakes!'
+
+Do you mew with Kendrick speakerman or Skibidi Drake?!?!?"></TextAobr>
          
     </div>
     </>
