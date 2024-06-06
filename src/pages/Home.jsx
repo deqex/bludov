@@ -6,6 +6,8 @@ import Footer from '../assets/components/Footer/Footer';
 
 
 
+
+
 import './Home.css'
 import BIG from '../assets/components/BIG/BIG';
 import NavbarTwo from '../assets/components/NavbarTwo/NavbarTwo';
@@ -21,6 +23,7 @@ export default function Home() {
             <div className='homemain'>
                 <Heading>Aktuality</Heading>
                 <div className='textareacontainer'>
+                    
                     <div className='innercontainer'>
                         <TextArea></TextArea>
                     </div>
@@ -29,7 +32,7 @@ export default function Home() {
                     </div>
                 </div>
                 <Heading></Heading>
-
+            </div>
                 <div className='AkceThumbnailContainer'>
                     <div className='innerthumbcont'>
                         <AkceThumbnail></AkceThumbnail>
@@ -41,7 +44,7 @@ export default function Home() {
                         <AkceThumbnail></AkceThumbnail>
                     </div>
                 </div>
-            </div>
+            
 
             <Footer></Footer>
 

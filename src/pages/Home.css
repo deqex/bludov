@@ -4,9 +4,41 @@
 }
 .AkceThumbnailContainer{
    overflow-x:scroll;
+   padding-left: 2rem;
 
    /*box-shadow: inset 0px 0px 60px 6px rgb(227, 227, 227);
    z-index: 389457468978947 !important;*/
    
 }
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ff0000; 
+    transition: 500ms;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #c70000; 
+    transition: 500ms;
+    
+  }
+
+  @media screen and (max-width: 1111px){
+    div.textareacontainer{
+        flex-direction: column;
+    }
+  }
 
