@@ -21,7 +21,7 @@ export default function Home() {
             <BIG></BIG>
 
             <div className='homemain'>
-                <Heading>Aktuality</Heading>
+                <Heading text={"Aktuality"}></Heading>
                 <div className='textareacontainer'>
                     
                     <div className='innercontainer'>
@@ -31,7 +31,7 @@ export default function Home() {
                         <TextArea></TextArea>
                     </div>
                 </div>
-                <Heading></Heading>
+                <Heading text={"Nejbližsí akce "}></Heading>
             </div>
                 <div className='AkceThumbnailContainer'>
                     <div className='innerthumbcont'>
