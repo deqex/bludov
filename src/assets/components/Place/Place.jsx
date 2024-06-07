@@ -15,7 +15,9 @@ export default function Place(pls) {
                 Email: {pls.email}
                 <br/>
                 Telefon: {pls.telefon}
+
                 </div>
+                <div className='place-text2'>{pls.text}</div>
                 <ActualButton></ActualButton>
             </div>
         </div>
