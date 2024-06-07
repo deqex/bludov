@@ -1,10 +1,11 @@
-import React from 'react'
-import NavbarTwo from '../../assets/components/NavbarTwo/NavbarTwo';
-import '../Foto/Foto.css'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Fotkaa from '../../assets/components/Fotkaa/Fotkaa';
+import React from "react";
+import NavbarTwo from "../../assets/components/NavbarTwo/NavbarTwo";
+import "../Foto/Foto.css";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Fotkaa from "../../assets/components/Fotkaa/Fotkaa";
+import { Link } from "react-router-dom";
 
 export default function Foto() {
   return (
@@ -12,38 +13,74 @@ export default function Foto() {
       <NavbarTwo></NavbarTwo>
 
       <Container>
-        <Row className='p-2'>
-          <Col><Fotkaa style={{backgroundImage: 'url(/src/assets/images/galery/kostel.jpg)'}} /></Col>
-          <Col><Fotkaa style={{backgroundImage: 'url(/src/assets/images/galery/pano.jpg)'}} /></Col>
-          <Col><Fotkaa style={{backgroundImage: 'url(/src/assets/images/galery/skola.jpg)'}} /></Col>
-          <Col><Fotkaa style={{backgroundImage: 'url(/src/assets/images/galery/letadlo.jpg)'}} /></Col>
-          
+        <Row className="p-2">
+          <Col>
+          <Link to={"/src/assets/images/galery/kostel.jpg"}>
+            <Fotkaa image={"/src/assets/images/galery/kostel.jpg"} />
+            </Link>
+          </Col>
+          <Col>
+          <Link to={"/src/assets/images/galery/pano.jpg"}>
+            <Fotkaa image={"/src/assets/images/galery/pano.jpg"} /></Link>
+          </Col>
+          <Col>
+          <Link to={"/src/assets/images/galery/skola.jpg"}>
+            <Fotkaa image={"/src/assets/images/galery/skola.jpg"} /></Link>
+          </Col>
+          <Col>
+          <Link to={"/src/assets/images/galery/letadlo.jpg"}>
+            <Fotkaa image={"/src/assets/images/galery/letadlo.jpg"} /></Link>
+          </Col>
         </Row>
-        <Row className='p-2'>
-          <Col><Fotkaa style={{backgroundImage: 'url(/src/assets/images/galery/rytiri.jpg)'}} /></Col>
-          <Col><Fotkaa style={{backgroundImage: 'url(/src/assets/images/galery/fotbalisti.jpg)'}} /></Col>
-          <Col><Fotkaa style={{backgroundImage: 'url(/src/assets/images/galery/ples.jpg)'}} /></Col>
-          <Col><Fotkaa style={{backgroundImage: 'url(/src/assets/images/galery/historie.jpg)'}} /></Col>
-          
+        <Row className="p-2">
+          <Col>
+          <Link to={"/src/assets/images/galery/rytiri.jpg"}>
+            <Fotkaa image={"/src/assets/images/galery/rytiri.jpg"} /></Link>
+          </Col>
+          <Col>
+          <Link to={"/src/assets/images/galery/fotbalisti.jpg"}>
+            <Fotkaa image={"/src/assets/images/galery/fotbalisti.jpg"} /></Link>
+          </Col>
+          <Col>
+          <Link to={"/src/assets/images/galery/ples.jpg"}>
+            <Fotkaa image={"/src/assets/images/galery/ples.jpg"} /></Link>
+          </Col>
+          <Col>
+          <Link to={"/src/assets/images/galery/historie.jpg"}></Link>
+            <Fotkaa image={"/src/assets/images/galery/historie.jpg"} />
+          </Col>
         </Row>
 
-        <Row className='p-2'>
-          <Col><Fotkaa style={{backgroundImage: 'url(/src/assets/images/galery/socha.jpg)'}} /></Col>
-          <Col><Fotkaa style={{backgroundImage: 'url(/src/assets/images/galery/knihovna.jpg)'}} /></Col>
-          <Col><Fotkaa style={{backgroundImage: 'url(/src/assets/images/galery/kresba.jpg)'}} /></Col>
-          <Col><Fotkaa style={{backgroundImage: 'url(/src/assets/images/galery/urad.jpg)'}} /></Col>
-          
+        <Row className="p-2">
+          <Col>
+          <Link to={"/src/assets/images/galery/socha.jpg"}>
+            <Fotkaa image={"/src/assets/images/galery/socha.jpg"} /></Link>
+          </Col>
+          <Col>
+          <Link to={"/src/assets/images/galery/knihovna.jpg"}>
+            <Fotkaa image={"/src/assets/images/galery/knihovna.jpg"} /></Link>
+          </Col>
+          <Col>
+          <Link to={"/src/assets/images/galery/kresba.jpg"}>
+            <Fotkaa image={"/src/assets/images/galery/kresba.jpg"} /></Link>
+          </Col>
+          <Col>
+          <Link to={"/src/assets/images/galery/urad.jpg"}>
+            <Fotkaa image={"/src/assets/images/galery/urad.jpg"} /></Link>
+          </Col>
         </Row>
 
-        <Row className='p-2'>
-          <Col><Fotkaa style={{backgroundImage: 'url(/src/assets/images/galery/vyhlidka.jpg)'}} /></Col>
-          <Col><Fotkaa style={{backgroundImage: 'url(/src/assets/images/galery/bludovenka.jpg)'}} /></Col>
-          
-          
+        <Row className="p-2">
+          <Col>
+          <Link to={"/src/assets/images/galery/vyhlidka.jpg"}>
+            <Fotkaa image={"/src/assets/images/galery/vyhlidka.jpg"} /></Link>
+          </Col>
+          <Col>
+          <Link to={"/src/assets/images/galery/bludovenka.jpg"}>
+            <Fotkaa image={"/src/assets/images/galery/bludovenka.jpg"} /></Link>
+          </Col>
         </Row>
-        
       </Container>
-      
     </div>
-  )
+  );
 }

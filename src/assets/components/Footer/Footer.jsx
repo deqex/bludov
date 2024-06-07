@@ -1,5 +1,9 @@
 import React from 'react'
 import './Footer.css'
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 export default function Footer() {
   return (
@@ -16,10 +20,10 @@ export default function Footer() {
           <div className='footerSocialkyObal'>
             <p className='footerSocialkyText'>Sledujte nas:</p>
             <div className='footerSocialky'>
-              <div className='FB'></div>
-              <div className='in'></div>
-              <div className='YT'></div>
-              <div className='insta'></div>
+              <div className='FB'><FacebookIcon/></div>
+              <div className='in'><LinkedInIcon/></div>
+              <div className='YT'><YouTubeIcon/></div>
+              <div className='insta'><InstagramIcon/></div>
             </div>
           </div>
         </div>

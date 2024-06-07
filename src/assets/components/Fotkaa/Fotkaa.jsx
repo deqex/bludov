@@ -1,10 +1,10 @@
 import React from 'react'
 import '../Fotkaa/Fotkaa.css'
 
-export default function Fotkaa() {
+export default function Fotkaa( {image} ) {
   return (
     <>
-    <div className='galeryImg1'  ></div>
+    <div className='galeryImg1' style={{ backgroundImage: `url(${image})` }}  ></div>
     </>
   )
 }
