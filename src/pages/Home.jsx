@@ -3,7 +3,7 @@ import Heading from '../assets/components/Heading/Heading';
 import TextArea from '../assets/components/TextArea/TextArea';
 import AkceThumbnail from '../assets/components/AkceThumbnail/AkceThumbnail';
 import Footer from '../assets/components/Footer/Footer';
-
+import gastro from '../assets/images/ostatni/gastrofetival.jpg'
 
 
 
@@ -35,13 +35,13 @@ export default function Home() {
             </div>
                 <div className='AkceThumbnailContainer'>
                     <div className='innerthumbcont'>
-                        <AkceThumbnail></AkceThumbnail>
+                        <AkceThumbnail nazev={"GASTROFESTIVAL"} popis={"Pradědovo dětské muzeum"} datum={"09.06.2024"} image={gastro}></AkceThumbnail>
                     </div>
                     <div className='innerthumbcont'>
-                        <AkceThumbnail></AkceThumbnail>
+                        <AkceThumbnail nazev={"GASTROFESTIVAL"} popis={"Pradědovo dětské muzeum"} datum={"09.06.2024"} image={gastro}></AkceThumbnail>
                     </div>
                     <div className='innerthumbcont'>
-                        <AkceThumbnail></AkceThumbnail>
+                        <AkceThumbnail nazev={"GASTROFESTIVAL"} popis={"Pradědovo dětské muzeum"} datum={"09.06.2024"} image={gastro}></AkceThumbnail>
                     </div>
                 </div>
             

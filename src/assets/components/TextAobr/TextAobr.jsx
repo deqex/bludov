@@ -1,13 +1,13 @@
 import React from 'react'
 import './TextAobr.css'
 
-export default function TextAobr(yap) {
+export default function TextAobr({ text, image }) { // Correctly destructure the props
   return (
     <div className='TextAobr_main'>
       <div className='TextAobr_text'>
-        {yap.text}
+        {text}
       </div>
-      <div className='TextAobr_obr'></div>
+      <div className='TextAobr_obr' style={{ backgroundImage: `url(${image})` }}></div>
     </div>
   )
 }

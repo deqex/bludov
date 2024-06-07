@@ -2,6 +2,7 @@ import React from 'react'
 import '../Mapa/Mapa.css';
 import NavbarTwo from '../../assets/components/NavbarTwo/NavbarTwo';
 import Iframe from 'react-iframe';
+import Footer from '../../assets/components/Footer/Footer';
 export default function Mapa() {
   return (
     <div>
@@ -11,6 +12,8 @@ export default function Mapa() {
         className="mapa"
         display="block"
         position="relative"/>
+      
+      <Footer></Footer>
 
     </div>
   )

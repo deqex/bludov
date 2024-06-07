@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Fotkaa from "../../assets/components/Fotkaa/Fotkaa";
 import { Link } from "react-router-dom";
+import Footer from "../../assets/components/Footer/Footer";
 
 export default function Foto() {
   return (
@@ -81,6 +82,7 @@ export default function Foto() {
           </Col>
         </Row>
       </Container>
+    <Footer></Footer>
     </div>
   );
 }

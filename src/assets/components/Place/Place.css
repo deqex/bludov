@@ -11,7 +11,7 @@
 .place-img{
     display: flex;
     border-radius: 8px;
-    background-image: url(../../images/01.jpg);
+    
     background-size: cover;
     width: 180px;
     height: 180px;
