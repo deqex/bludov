@@ -1,4 +1,4 @@
-import MujKomponentKterejHandlikZmenil from "../../assets/components/Kys/MujKomponentKterejHandlikZmenil"
+import MujKomponentKterejHandlikZmenil from "../../assets/components/MujKomponentKterejHandlikZmenil/MujKomponentKterejHandlikZmenil"
 import Place from "../../assets/components/Place/Place"
 import Sidenav from "../../assets/components/Sidenav/Sidenav"
 import Thumbnail from "../../assets/components/Thumbnail/Thumbnail"
