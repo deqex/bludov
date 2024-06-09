@@ -2,21 +2,29 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: 406px;
+    width: 25rem;
     border: 1px solid #F7F7F7;
     box-shadow: -4px 8px 20px rgba(83, 83, 83, 0.1);
     border-radius: 12px; 
+    margin: 1rem;
+    
  
  }
  
  .Thumbnail-imgbox{
-    width: 406px;
+    width: 25rem;
     height: 244px;
-    background-image: url('https://www.bludov.cz/admin/photos/ModuleTurist/14/kostelecek3-624a7e5c7a1ee.jpg');
-    background-size: cover;
+
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 
+ }
+ .Thumbnail-img{
+   width: 25rem;
+   height: 244px;
+
+   border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
  }
  .Thumbnail-container2{
     display: flex;
@@ -63,4 +71,8 @@
      align-items: center;
      margin: 0;
    
+ }
+ .jcc{
+   display: flex;
+   justify-content: center;
  }
