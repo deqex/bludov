@@ -30,7 +30,9 @@ export default function Ubytovani() {
         </Row>
       </Container>
 
+      <div className='footermargin'>
       <Footer></Footer>
+      </div>
     </>
   )
 }

@@ -35,7 +35,9 @@ export default function Cile() {
           </Col>
         </Row>
       </Container>
+      <div className='footermargin'>
       <Footer></Footer>
+      </div>
     </>
   )
 }

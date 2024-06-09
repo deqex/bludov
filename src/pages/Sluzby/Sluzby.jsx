@@ -35,7 +35,9 @@ export default function Sluzby() {
           </Col>
         </Row>
       </Container>
+      <div className='footermargin'>
       <Footer></Footer>
+      </div>
     </div>
 
   )

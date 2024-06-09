@@ -21,7 +21,6 @@ export default function Footer() {
             <p className='footerSocialkyText'>Sledujte nas:</p>
             <div className='footerSocialky'>
               <div className='FB'><FacebookIcon/></div>
-              <div className='in'><LinkedInIcon/></div>
               <div className='YT'><YouTubeIcon/></div>
               <div className='insta'><InstagramIcon/></div>
             </div>
