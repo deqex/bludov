@@ -54,3 +54,13 @@
     font-weight: 900; 
     font-style: normal;
 }
+
+/*.navi-fix{
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .navi-fix{
+        margin-bottom: 8rem;
+    }
+  }*/

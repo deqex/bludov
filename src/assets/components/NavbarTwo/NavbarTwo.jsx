@@ -11,7 +11,7 @@ import './../Navi/Navi.css'
 
 export default function NavbarTwo() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary navi-shadowabuse">
+    <Navbar expand="lg" className="bg-body-tertiary navi-shadowabuse navi-fix">
       <Container className='navi-logo' >
       <Navbar.Brand href="#home">
             <img

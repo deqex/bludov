@@ -35,6 +35,7 @@ export default function Cile() {
           </Col>
         </Row>
       </Container>
+      <Footer></Footer>
     </>
   )
 }

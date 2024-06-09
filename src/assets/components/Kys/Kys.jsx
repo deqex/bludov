@@ -12,9 +12,9 @@ export default function Kys(kkt) {
             <div className='Kys-text'>
                 <div className='Kys-title'>{kkt.title}</div>
                 <div className='Kys-description'>
-                  Email: {kkt.email} 
+                  {kkt.email} 
                   <br/> 
-                  Telefon: {kkt.tel}
+                  Kontakt: {kkt.tel}
                 </div>
                 <ActualButton></ActualButton>
             </div>
