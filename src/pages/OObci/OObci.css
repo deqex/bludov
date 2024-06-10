@@ -4,5 +4,11 @@
 }
 .oobci-container{
     display: flex;
+    justify-content: center;
 
+}
+.oobci-head{
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
 }

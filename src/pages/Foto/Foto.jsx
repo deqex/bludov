@@ -77,6 +77,14 @@ export default function Foto() {
             <Fotkaa image={"/src/assets/images/galery/vyhlidka.jpg"} /></Link>
           </Col>
           <Col>
+          <Link to={"/src/assets/images/galery/pohled.jpg"}>
+            <Fotkaa image={"/src/assets/images/galery/pohled.jpg"} /></Link>
+          </Col>
+          <Col>
+          <Link to={"/src/assets/images/galery/pohled2.jpg"}>
+            <Fotkaa image={"/src/assets/images/galery/pohled2.jpg"} /></Link>
+          </Col>
+          <Col>
           <Link to={"/src/assets/images/galery/bludovenka.jpg"}>
             <Fotkaa image={"/src/assets/images/galery/bludovenka.jpg"} /></Link>
           </Col>
