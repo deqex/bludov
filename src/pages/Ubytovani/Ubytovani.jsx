@@ -10,14 +10,14 @@ import Bludovecek from '../../assets/images/Bludovecek.jpg'
 import vlcak from '../../assets/images/vlcak.jpg'
 import klara from '../../assets/images/klara.jpeg'
 
-import './Ubytovani.css'
+
 
 export default function Ubytovani() {
   return (
     <>
       <NavbarTwo></NavbarTwo>
       <div className='ubytovani-heading'>
-      <Heading text="Ubytovaní"></Heading>
+        <Heading text="Ubytovaní"></Heading>
       </div>
       <Container>
         <Row>
@@ -39,7 +39,7 @@ export default function Ubytovani() {
       </Container>
 
       <div className='footermargin'>
-      <Footer></Footer>
+        <Footer></Footer>
       </div>
     </>
   )
