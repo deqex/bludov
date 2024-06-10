@@ -12,7 +12,7 @@ export default function Foto() {
   return (
     <div>
       <NavbarTwo></NavbarTwo>
-
+      <div style={{margin: "2rem"}}></div>
       <Container>
         <Row className="p-2">
           <Col>
@@ -90,7 +90,9 @@ export default function Foto() {
           </Col>
         </Row>
       </Container>
-    <Footer></Footer>
+      <div className='footermargin'>
+      <Footer></Footer>
+      </div>
     </div>
   );
 }
