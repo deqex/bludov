@@ -4,7 +4,7 @@ import Heading from '../../assets/components/Heading/Heading'
 import Footer from '../../assets/components/Footer/Footer'
 import Kys from '../../assets/components/Kys/Kys'
 import { Container, Row, Col } from "react-bootstrap";
-
+import './Ubytovani.css'
 import haber from '../../assets/images/haber.jpg'
 import Bludovecek from '../../assets/images/Bludovecek.jpg'
 import vlcak from '../../assets/images/vlcak.jpg'
