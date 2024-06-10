@@ -18,11 +18,7 @@ export default function CustomizedAccordions() {
       </div>
       <div className='oobci-container'>
 
-        <TextAobr image={obrazek} text="What if drake was called Skibidi Drake and instead of making songs like 'god's plan' he made 'Gyatt's plan' in which he rizzes Kai Cenat's lvl 10 gyatt from ohio while having Baby Gronk as a feature and edging Livvy Dunne throughout the song until he starts jelqing like a sigma after which the beat drops and in the background you can hear turkish quandale dingle sipping the grimace shake at 3 am the ocky way with Nathaniel b
-
-In the recent beef with Kendrick SpeakerMan Llamar, Skibidi Drake has been fanum taxed by Kendrick Speaker, being accused of rizzing up a level <18 Gyatt and potentially even jelqing with her. Skibidi Drake has denied these allegations, stating 'That beta male Kendrick Speakerman will be fanum taxed by me and my skibidi toilet army if he keeps edging me with these outrageous accusations! This is a load of ohio grimace shakes!'
-
-Do you mew with Kendrick speakerman or Skibidi Drake?!?!?"></TextAobr>
+        <TextAobr image={obrazek} text={'Bludov je malebná vesnice v Olomouckém kraji na severní Moravě, ležící v podhůří Jeseníků, nedaleko města Šumperk. Její historie sahá až do 13. století, kdy byla poprvé zmíněna v historických dokumentech. Bludov je známý svou bohatou historií a kulturními památkami, mezi které patří zejména barokní zámek Bludov a kostel svatého Jiří, které jsou hlavními turistickými atrakcemi této oblasti.Zámek Bludov, původně gotická tvrz, byl přestavěn v barokním stylu a dnes slouží jako kulturní a společenské centrum obce. Kostel svatého Jiří je významnou sakrální stavbou, která se pyšní bohatou výzdobou a historickým významem. V okolí Bludova se nachází nádherná příroda, která je ideální pro turistiku, cykloturistiku a další outdoorové aktivity.Bludov je také známý svými lázněmi, které využívají místní termální prameny. Lázně Bludov jsou oblíbeným místem pro relaxaci a léčebné pobyty, a to díky své příznivé poloze a kvalitním službám. Vesnice je tak příjemným místem k životu i návštěvě, spojujícím klid venkova s bohatou kulturní a historickou tradicí. Místní obyvatelé jsou hrdí na své dědictví a aktivně se podílejí na udržování kulturního a společenského života obce.'} ></TextAobr>
 
       </div>
       <Footer></Footer>

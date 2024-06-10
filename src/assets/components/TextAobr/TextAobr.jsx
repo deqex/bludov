@@ -1,7 +1,7 @@
 import React from 'react'
 import './TextAobr.css'
 
-export default function TextAobr({ text, image }) { // Correctly destructure the props
+export default function TextAobr({ text, image }) { 
   return (
     <div className='TextAobr_main'>
       <div className='TextAobr_text'>
