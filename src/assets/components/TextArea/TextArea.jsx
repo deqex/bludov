@@ -7,8 +7,8 @@ export default function TextArea(yap) {
         <div>
             <div className='TextArea-obal1'>
                 <div className='TextArea-obal2'>
-                    <p className='TextArea-subheading'>Subheading</p>
-                    <p className='TextArea-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptas reiciendis eveniet nobis omnis incidunt nesciunt. Sunt excepturi numquam earum, enim corporis asperiores repellat temporibus eum quod consectetur iste cupiditate.</p>
+                    <p className='TextArea-subheading'>{yap.head}</p>
+                    <p className='TextArea-text'>{yap.text}</p>
                 </div>
             </div>
         </div>

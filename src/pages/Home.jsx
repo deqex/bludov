@@ -25,10 +25,10 @@ export default function Home() {
                 <div className='textareacontainer'>
                     
                     <div className='innercontainer'>
-                        <TextArea></TextArea>
+                        <TextArea head={'Změna obsluhy zastávek'} text={'V termínu od 11. do 17. dubna 2024 byla kvůli úplné uzavírce silnice I/44 u železničního přejezdu "u Habermanna" změněna obsluha některých autobusových zastávek. Zastávka Bludov, Habermannova vila nebyla obsluhována a zastávka Bludov, dol. konec byla přemístěna o cca 200 metrů dál'}></TextArea>
                     </div>
                     <div className='innercontainer'>
-                        <TextArea></TextArea>
+                        <TextArea head={'Dopravní nehoda'} text={'Nedávno došlo k vážné dopravní nehodě v Bludově, při které musel zasahovat i vrtulník. Při této nehodě bylo zraněno pět lidí​'}></TextArea>
                     </div>
                 </div>
                 <Heading text={"Nejbližsí akce "}></Heading>

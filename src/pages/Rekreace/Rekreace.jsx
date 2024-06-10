@@ -7,6 +7,7 @@ import hriste from '../../assets/images/galery/hriste.jpg'
 import hriste2 from '../../assets/images/galery/viceucelove.jpg'
 import farnost from '../../assets/images/galery/farnost.jpg'
 import kniha from '../../assets/images/galery/knihovna.jpg'
+import Footer from '../../assets/components/Footer/Footer'
 
 
 export default function Rekreace() {
@@ -39,6 +40,9 @@ export default function Rekreace() {
           </Col>
         </Row>
       </Container>
+      <div className='footermargin'>
+        <Footer></Footer>
+      </div>
     </div>
   )
 }
