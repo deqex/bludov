@@ -10,6 +10,10 @@ import Bludovecek from '../../assets/images/Bludovecek.jpg'
 import vlcak from '../../assets/images/vlcak.jpg'
 import klara from '../../assets/images/klara.jpeg'
 import Heading from '../../assets/components/Heading/Heading';
+import fireinthehole from '../../assets/images/fireinthehole.jpg'
+import odpad from '../../assets/images/odpad.png'
+import lekarna from '../../assets/images/lekarna.png'
+import ilovethemyounger from '../../assets/images/ilovethemyounger.jpg'
 
 export default function Sluzby() {
   return (
@@ -21,18 +25,18 @@ export default function Sluzby() {
       <Container>
         <Row>
           <Col>
-            <div className='jcc'><Kys src={haber} title="Habermannova vila" email="Adresa: Kulatov 535" tel="725 168 943"></Kys></div>
+            <div className='jcc'><Kys src={fireinthehole} title="Sbor hasičů" email="sborhasicu@bludov.cz" tel="725 168 943"></Kys></div>
           </Col>
           <Col>
-            <div className='jcc'><Kys src={Bludovecek} title="Penzion Bludoveček" email="Adresa: Vyhrerni 777" tel="762 481 674"></Kys></div>
+            <div className='jcc'><Kys src={odpad} title="Odpadové hospodářství" email="Email: mesoh@bludov.cz" tel="762 481 674"></Kys></div>
           </Col>
         </Row>
         <Row>
           <Col>
-            <div className='jcc'><Kys src={vlcak} title="Chata Vlčák" email="Adresa: U Stromu 420" tel="777 318 696"></Kys></div>
+            <div className='jcc'><Kys src={lekarna} title="Lékárna" email="Adresa: U Čapka 420" tel="777 318 696"></Kys></div>
           </Col>
           <Col>
-            <div className='jcc'><Kys src={klara} title="Restaurace U Kláry" email="Adresa: Jana Žižky 905" tel="773 420 696"></Kys></div>
+            <div className='jcc'><Kys src={ilovethemyounger} title="Mateřská školka" email="Adresa: Igora Trefného 95" tel="773 420 696"></Kys></div>
           </Col>
         </Row>
       </Container>
