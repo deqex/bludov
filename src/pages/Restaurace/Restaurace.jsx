@@ -19,26 +19,34 @@ export default function Restaurace() {
       <Container>
         <Row>
           <Col>
+          <div className='jcc'>
             <Place image={klara} telefon={"Telefon: 734 268 838"} name={"Dětské hřiště"} email={"Adresa: Někdelov 182"}
               text={"otevírací dobu tady pls"}>
             </Place>
+          </div>
           </Col>
           <Col>
+          <div className='jcc'>
             <Place image={klara} telefon={"Telefon: 734 268 838"} name={"Dětské hřiště"} email={"Adresa: Pánovská 404"}
               text={"otevírací dobu tady pls"}>
             </Place>
+            </div>
           </Col>
         </Row>
         <Row>
         <Col>
+        <div className='jcc'>
             <Place image={klara} telefon={"Telefon: 734 268 838"} name={"Dětské hřiště"} email={"Adresa: Vidělov 727"}
               text={"otevírací dobu tady pls"}>
             </Place>
+            </div>
           </Col>
           <Col>
+          <div className='jcc'>
             <Place image={klara} telefon={"Telefon: 734 268 838"} name={"Dětské hřiště"} email={"Adresa: Bludánská 624"}
               text={"otevírací dobu tady pls"}>
             </Place>
+            </div>
           </Col>
         </Row>
       </Container>
