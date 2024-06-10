@@ -2,7 +2,7 @@
     /* Paragraph */
 
 width: 624px;
-height: 360px;
+padding-bottom: 2rem;
 
 /* Body text
 
@@ -46,4 +46,11 @@ border-radius: 8px;
 background-position: center;
 background-size: cover;
 
+}
+
+@media screen and (max-width: 1260px) {
+    .TextAobr_main{
+        flex-direction: column;
+        height: auto;
+    }
 }

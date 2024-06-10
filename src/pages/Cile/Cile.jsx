@@ -7,14 +7,15 @@ import Footer from '../../assets/components/Footer/Footer';
 import stezka from '../../assets/images/stezka.jpg'
 import vyhlidka from '../../assets/images/01.jpg'
 import zamecek from '../../assets/images/zamecek.jpg'
-
+import './Cile.css'
 
 export default function Cile() {
   return (
     <>
         <NavbarTwo></NavbarTwo>
+        <div className='cile-heading'>
         <Heading text="Turistické cíle"></Heading>
-
+        </div>
         
         <Container>
     
