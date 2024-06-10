@@ -10,27 +10,30 @@ import Bludovecek from '../../assets/images/Bludovecek.jpg'
 import vlcak from '../../assets/images/vlcak.jpg'
 import klara from '../../assets/images/klara.jpeg'
 
+import './Ubytovani.css'
+
 export default function Ubytovani() {
   return (
     <>
       <NavbarTwo></NavbarTwo>
+      <div className='ubytovani-heading'>
       <Heading text="Ubytovaní"></Heading>
-
+      </div>
       <Container>
         <Row>
           <Col>
-            <Kys src={haber} title="Habermannova vila" email="Adresa: Kulatov 535" tel="725 168 943"></Kys>
+            <div className='jcc'><Kys src={haber} title="Habermannova vila" email="Adresa: Kulatov 535" tel="725 168 943"></Kys></div>
           </Col>
           <Col>
-            <Kys src={Bludovecek} title="Penzion Bludoveček" email="Adresa: Vyhrerni 777" tel="762 481 674"></Kys>
+            <div className='jcc'><Kys src={Bludovecek} title="Penzion Bludoveček" email="Adresa: Vyhrerni 777" tel="762 481 674"></Kys></div>
           </Col>
         </Row>
         <Row>
           <Col>
-            <Kys src={vlcak} title="Chata Vlčák" email="Adresa: U Stromu 420" tel="777 318 696"></Kys>
+            <div className='jcc'><Kys src={vlcak} title="Chata Vlčák" email="Adresa: U Stromu 420" tel="777 318 696"></Kys></div>
           </Col>
           <Col>
-            <Kys src={klara} title="Restaurace U Kláry" email="Adresa: Jana Žižky 905" tel="773 420 696"></Kys>
+            <div className='jcc'><Kys src={klara} title="Restaurace U Kláry" email="Adresa: Jana Žižky 905" tel="773 420 696"></Kys></div>
           </Col>
         </Row>
       </Container>

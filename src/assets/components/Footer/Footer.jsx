@@ -30,13 +30,13 @@ export default function Footer() {
           <div className='footerkontakt'>
             <div className='footerkontakttext'>
               <p className='footerkontaktheader'>Starosta</p>
-              <p className='footeremail'>nesnasim.negry@gmail.com</p>
+              <p className='footeremail'>starosta@bludov.cz</p>
             </div>
           </div>
           <div className='footerkontakt'>
             <div className='footerkontakttext'>
               <p className='footerkontaktheader'>Starosta</p>
-              <p className='footeremail'>nesnasim.negry@gmail.com</p>
+              <p className='footeremail'>starosta@bludov.cz</p>
             </div>
           </div>
         </div>
