@@ -4,6 +4,7 @@ import TextArea from '../assets/components/TextArea/TextArea';
 import AkceThumbnail from '../assets/components/AkceThumbnail/AkceThumbnail';
 import Footer from '../assets/components/Footer/Footer';
 import gastro from '../assets/images/ostatni/gastrofetival.jpg'
+import chleba from '../assets/images/bleba.png'
 
 
 
@@ -38,7 +39,7 @@ export default function Home() {
                         <AkceThumbnail nazev={"GASTROFESTIVAL"} popis={"Pradědovo dětské muzeum"} datum={"09.06.2024"} image={gastro}></AkceThumbnail>
                     </div>
                     <div className='innerthumbcont'>
-                        <AkceThumbnail nazev={"GASTROFESTIVAL"} popis={"Pradědovo dětské muzeum"} datum={"09.06.2024"} image={gastro}></AkceThumbnail>
+                        <AkceThumbnail nazev={"Kurz pečení chleba"} popis={"Obecní klub"} datum={"22.06.2024"} image={chleba}></AkceThumbnail>
                     </div>
                     <div className='innerthumbcont'>
                         <AkceThumbnail nazev={"GASTROFESTIVAL"} popis={"Pradědovo dětské muzeum"} datum={"09.06.2024"} image={gastro}></AkceThumbnail>

@@ -1,7 +1,7 @@
 .TextAobr_text{
     /* Paragraph */
 
-width: 624px;
+width: 40%;
 padding-bottom: 2rem;
 
 /* Body text
@@ -37,7 +37,7 @@ flex-grow: 0;
     /* Hero Image */
 
 
-width: 508px;
+width: 30%;
 height: 632px;
 
 
@@ -52,5 +52,12 @@ background-size: cover;
     .TextAobr_main{
         flex-direction: column;
         height: auto;
+    }
+
+    .TextAobr_text{
+        width: 100%;
+    }
+    .TextAobr_obr{
+        width: 100%;
     }
 }

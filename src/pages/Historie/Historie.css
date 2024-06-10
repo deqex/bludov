@@ -4,9 +4,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 .headinghistorybox{
     width: 400px;
-    display: flex;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media  screen and (max-width: 830px) {
+    .headinghistorybox{
+        width: 230px;
+    }
 }

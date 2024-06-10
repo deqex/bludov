@@ -13,8 +13,8 @@ export default function Footer() {
         <div className='footerleva'>
           <div className='footerAdresaObal'>
             <p className='footerheadline1'>Adresa</p>
-            <p className='footeradresatext'>misto 57</p>
-            <p className='footeradresatext'>misto 57</p>
+            <p className='footeradresatext'>Úřad: tř. A. Kašpara 361, 789 61 Bludov</p>
+            <p className='footeradresatext'>Město: tř. A. Kašpara 361, 789 61 Bludov</p>
           </div>
 
           <div className='footerSocialkyObal'>
@@ -35,8 +35,8 @@ export default function Footer() {
           </div>
           <div className='footerkontakt'>
             <div className='footerkontakttext'>
-              <p className='footerkontaktheader'>Starosta</p>
-              <p className='footeremail'>starosta@bludov.cz</p>
+              <p className='footerkontaktheader'>Obecí ůřad</p>
+              <p className='footeremail'>podatelna@ou.bludov.cz</p>
             </div>
           </div>
         </div>
