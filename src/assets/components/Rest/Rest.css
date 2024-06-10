@@ -46,3 +46,8 @@ padding-right: 1rem;
     width: 10rem;
     height: 10rem;
 }
+@media only screen and (max-width: 630px) {
+    .rest-description{
+        margin-top: 2rem;
+    }
+  }
