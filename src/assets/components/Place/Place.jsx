@@ -12,9 +12,9 @@ export default function Place({name, email, telefon, text, image}) {
             <div className='place-text'>
                 <div className='place-title'>{name}</div>
                 <div className='place-description'>
-                Email: {email}
+                {email}
                 <br/>
-                Telefon: {telefon}
+                {telefon}
 
                 </div>
                 <div className='place-text2'>{text}</div>
