@@ -7,6 +7,10 @@ import './Restaurace.css'
 import klara from '../../assets/images/klara.jpeg'
 import Place from '../../assets/components/Place/Place'
 
+import restaurace from '../../assets/images/restaurace.jpg'
+import hostinec from '../../assets/images/hostinec.jpeg'
+import Bludovecek from '../../assets/images/Bludovecek.jpg'
+
 
 
 export default function Restaurace() {
@@ -20,14 +24,14 @@ export default function Restaurace() {
         <Row>
           <Col>
           <div className='jcc'>
-            <Place image={klara} telefon={"Telefon: 734 268 838"} name={"Dětské hřiště"} email={"Adresa: Někdelov 182"}
+            <Place image={restaurace} telefon={"Telefon: 734 268 838"} name={"Restaurace Bludovská"} email={"Adresa: Někdelov 182"}
               text={"otevírací dobu tady pls"}>
             </Place>
           </div>
           </Col>
           <Col>
           <div className='jcc'>
-            <Place image={klara} telefon={"Telefon: 734 268 838"} name={"Dětské hřiště"} email={"Adresa: Pánovská 404"}
+            <Place image={Bludovecek} telefon={"Telefon: 734 268 838"} name={"Restaurace Bludoveček"} email={"Adresa: Pánovská 404"}
               text={"otevírací dobu tady pls"}>
             </Place>
             </div>
@@ -36,14 +40,14 @@ export default function Restaurace() {
         <Row>
         <Col>
         <div className='jcc'>
-            <Place image={klara} telefon={"Telefon: 734 268 838"} name={"Dětské hřiště"} email={"Adresa: Vidělov 727"}
+            <Place image={hostinec} telefon={"Telefon: 734 268 838"} name={"Hostinec Pod kostelem"} email={"Adresa: Vidělov 727"}
               text={"otevírací dobu tady pls"}>
             </Place>
             </div>
           </Col>
           <Col>
           <div className='jcc'>
-            <Place image={klara} telefon={"Telefon: 734 268 838"} name={"Dětské hřiště"} email={"Adresa: Bludánská 624"}
+            <Place image={klara} telefon={"Telefon: 734 268 838"} name={"Restaurace U Kláry"} email={"Adresa: Bludánská 624"}
               text={"otevírací dobu tady pls"}>
             </Place>
             </div>
