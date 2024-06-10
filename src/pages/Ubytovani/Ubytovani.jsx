@@ -5,6 +5,11 @@ import Footer from '../../assets/components/Footer/Footer'
 import Kys from '../../assets/components/Kys/Kys'
 import { Container, Row, Col } from "react-bootstrap";
 
+import haber from '../../assets/images/haber.jpg'
+import Bludovecek from '../../assets/images/Bludovecek.jpg'
+import vlcak from '../../assets/images/vlcak.jpg'
+import klara from '../../assets/images/klara.jpeg'
+
 export default function Ubytovani() {
   return (
     <>
@@ -14,18 +19,18 @@ export default function Ubytovani() {
       <Container>
         <Row>
           <Col>
-            <Kys title="Habermannova vila" email="Adresa: Kulatov 535" tel="725 168 943"></Kys>
+            <Kys src={haber} title="Habermannova vila" email="Adresa: Kulatov 535" tel="725 168 943"></Kys>
           </Col>
           <Col>
-            <Kys title="Penzion Bludoveček" email="Adresa: Vyhrerni 777" tel="762 481 674"></Kys>
+            <Kys src={Bludovecek} title="Penzion Bludoveček" email="Adresa: Vyhrerni 777" tel="762 481 674"></Kys>
           </Col>
         </Row>
         <Row>
           <Col>
-            <Kys title="Chata Vlčák" email="Adresa: U Stromu 420" tel="777 318 696"></Kys>
+            <Kys src={vlcak} title="Chata Vlčák" email="Adresa: U Stromu 420" tel="777 318 696"></Kys>
           </Col>
           <Col>
-            <Kys title="Restaurace U Kláry" email="Adresa: Jana Žižky 905" tel="773 420 696"></Kys>
+            <Kys src={klara} title="Restaurace U Kláry" email="Adresa: Jana Žižky 905" tel="773 420 696"></Kys>
           </Col>
         </Row>
       </Container>
