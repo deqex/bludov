@@ -9,12 +9,15 @@ import haber from '../../assets/images/haber.jpg'
 import Bludovecek from '../../assets/images/Bludovecek.jpg'
 import vlcak from '../../assets/images/vlcak.jpg'
 import klara from '../../assets/images/klara.jpeg'
+import Heading from '../../assets/components/Heading/Heading';
 
 export default function Sluzby() {
   return (
-    <div>
+    <div className='sluzby'>
       <NavbarTwo></NavbarTwo>
-
+      <div className='sluzbyheading'>
+        <Heading text={"Služby"}></Heading>
+      </div>
       <Container>
         <Row>
           <Col>

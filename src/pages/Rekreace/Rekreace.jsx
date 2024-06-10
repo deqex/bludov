@@ -8,12 +8,16 @@ import hriste2 from '../../assets/images/galery/viceucelove.jpg'
 import farnost from '../../assets/images/galery/farnost.jpg'
 import kniha from '../../assets/images/galery/knihovna.jpg'
 import Footer from '../../assets/components/Footer/Footer'
+import Heading from '../../assets/components/Heading/Heading'
 
 
 export default function Rekreace() {
   return (
     <div>
       <NavbarTwo></NavbarTwo>
+      <div className='rekreaceheading'>
+        <Heading text={"Rekreace"}></Heading>
+      </div>
       <Container>
         <Row>
           <Col>
